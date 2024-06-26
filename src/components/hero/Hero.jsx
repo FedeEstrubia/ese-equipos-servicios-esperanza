@@ -9,8 +9,8 @@ export default function Hero() {
 
   return (
     <div id="hero" className="div-hero flex flex-col relative w-full h-screen overflow-hidden">
-      <div className="overlay-text flex flex-col justify-center items-center w-screen h-screen bg-black bg-opacity-80 z-30">
-        <div className="overlay-text flex flex-col justify-center items-center w-screen h-screen bg-blue-900 bg-opacity-30 gap-6 z-30">
+      <div className="overlay-text flex flex-col justify-center items-center w-screen h-screen z-30">
+        <div className="overlay-text flex flex-col justify-center items-center w-screen h-screen gap-6 z-30">
           <motion.h1
             className="gradient m-0 text-white text-center font-bold text-5xl"
             initial={{ scale: 0 }}

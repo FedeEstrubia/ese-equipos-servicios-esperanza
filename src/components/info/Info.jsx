@@ -6,10 +6,10 @@ export default function Info() {
   };
   return (
     <>
-      <div className="flex flex-row justify-center w-screen bg-black bg-opacity-80 h-screen z-20">
+      <div className="flex flex-row justify-center w-screen h-screen z-20">
         <div
           id="info"
-          className="h-screen sm:w-[55%] flex flex-col justify-center items-center bg-blue-900 bg-opacity-30 gap-14 z-20"
+          className="h-screen sm:w-[55%] flex flex-col justify-center items-center gap-14 z-20"
         >
           <h1 className="m-0 p-0 text-[#eee] max-w-[70%]">
             Somos distribuidores Oficiales de deLaval
@@ -27,9 +27,9 @@ export default function Info() {
             variant={"ghost"}
           />
         </div>
-        <div className="hidden sm:flex items-center w-[45%] bg-blue-900 bg-opacity-30 overflow-hidden">
+        <div className="hidden sm:flex items-center w-[45%] overflow-hidden">
           <img
-            className="shadow-xl overflow-hidden bg-slate-600 h-[w-50%] w-[90%] rounded-3xl z-20 "
+            className="shadow-xl overflow-hidden h-[w-50%] w-[90%] rounded-3xl z-20 "
             src="/fondo-info-prueba.jpg"
             alt="Fondo de Info"
           />

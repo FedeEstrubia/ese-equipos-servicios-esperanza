@@ -117,10 +117,10 @@ export default function CardFramerMotion() {
   return (
     <div
       id="card"
-      className="flex flex-col w-screen justify-center items-center bg-black bg-opacity-80 h-screen gap-2"
-    ><div className="flex flex-col w-screen h-screen bg-blue-900 bg-opacity-30">
+      className="flex flex-col w-screen justify-center items-center  h-screen gap-2"
+    ><div className="flex flex-col items-center w-screen h-screen">
 
-
+      {/* Titulo */}
       <motion.h1
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
@@ -129,6 +129,7 @@ export default function CardFramerMotion() {
        
         Nuestro Equipo
       </motion.h1>
+      {/* Subtitulo */}
       <motion.h2
         className="w-1/2 "
         initial={{ scale: 0 }}
@@ -142,6 +143,8 @@ export default function CardFramerMotion() {
         >
         Presionen sobre nosotros para conocernos!!
       </motion.h2>
+
+        {/* iteracion de cards */}
       <div className="flex flex-wrap justify-evenly items-center h-[60%]">
         {items.map((item) => (
           <motion.div
@@ -200,6 +203,7 @@ export default function CardFramerMotion() {
         </AnimatePresence>
       </div>
       
+      {/* boton para celular */}
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}

@@ -53,7 +53,7 @@ export default function FormEmail() {
         </div>
       </Modal>
       <form
-        className="flex flex-col h-screen w-full bg-blue-900 bg-opacity-30 gap-10 justify-center items-center"
+        className="flex flex-col h-screen w-full gap-10 justify-center items-center"
         id="form"
         ref={form}
         onSubmit={sendEmail}

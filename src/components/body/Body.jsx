@@ -8,7 +8,7 @@ import WhatsappChat from '../whatsapp/WhatsappChat'
 
 export default function Body() {
   return (
-    <div className="w-screen relative flex flex-col justify-start items-center overflow-hidden">
+    <div className="w-screen relative flex flex-col justify-start items-center bg-fondo overflow-hidden">
       <WhatsappChat/>
       <Hero />
       <Info />

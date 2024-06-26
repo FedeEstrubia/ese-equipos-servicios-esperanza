@@ -11,7 +11,13 @@ export default {
       fontFamily:{
         'cunia': ['Cunia', 'sans-serif'],
         'comic-neue': ['Comic Neue', 'cursive'],
-      }
+      },
+      colors: {
+        'fondo': '#00204a',
+        'fondoDetail': '#002550',
+        'celeste': '#00bbf0',
+        'claro': '#d9faff',
+      },
     },
     flex:{
       'custom25': '1 1 calc(25% - 1rem)',
