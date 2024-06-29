@@ -7,8 +7,8 @@ export default function Whatsapp() {
     message
   )}`;
   return (
-  <div >
-    <div className="fixed animate-ping w-[40px] h-[40px] bottom-0 right-0 m-[42px] bg-green-900 rounded-full z-10"></div>
+  <div>
+    <div className="fixed animate-ping w-[40px] h-[40px] bottom-0 right-0 m-[42px] bg-green-900 rounded-full z-40"></div>
     <a
       href={whatsappUrl}
       target="_blank"

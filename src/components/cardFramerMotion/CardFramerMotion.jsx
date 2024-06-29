@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
-import { Button } from "@nextui-org/react";
 
 // const items = [
 //   {
@@ -109,28 +108,28 @@ export default function CardFramerMotion() {
   const [selectedId, setSelectedId] = useState(null);
 
   const selectedItem = items.find((item) => item.id === selectedId);
-  const scroll = () => {
-    document.getElementById("form").scrollIntoView({ behavior: "smooth" });
-  };
+  // const scroll = () => {
+  //   document.getElementById("form").scrollIntoView({ behavior: "smooth" });
+  // };
 
   return (
     <div
       id="card"
-      className="flex flex-col w-screen justify-center items-center  h-screen gap-2"
+      className="flex flex-col w-screen justify-center items-center sm:h-screen gap-2"
     >
-      <div className="flex flex-col items-center gap-8 w-screen h-screen">
+      <div className="flex flex-col items-center gap-8 w-screen sm:h-screen">
         {/* Titulo */}
         <motion.h1
           initial={{ scale: 0 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 1.5, ease: "easeInOut", type: "spring" }}
-          className="text-[350%]"
+          className="text-5xl sm:text-[4.5rem] select-none"
         >
           Nuestro <strong className="text-celeste">Equipo</strong>
         </motion.h1>
         {/* Subtitulo */}
         <motion.h2
-          className="text-[150%]"
+          className="text-xl sm:text-2xl w-full p-1 select-none font-medium text-[#579]"
           initial={{ scale: 0 }}
           whileInView={{ scale: 1 }}
           transition={{
@@ -321,7 +320,7 @@ export default function CardFramerMotion() {
         </div>
 
         {/* boton para celular */}
-        <motion.div
+        {/* <motion.div
           initial={{ scale: 0, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.4, ease: "easeInOut", type: "spring" }}
@@ -331,11 +330,11 @@ export default function CardFramerMotion() {
             onClick={scroll}
             variant="ghost"
             color="primary"
-            className="sm:hidden"
+            className=""
           >
             Siguiente Seccion
           </Button>
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   );

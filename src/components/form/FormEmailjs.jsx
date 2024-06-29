@@ -53,14 +53,14 @@ export default function FormEmail() {
         </div>
       </Modal>
       <form
-        className="flex flex-col h-screen w-full gap-10 justify-center items-center"
+        className="flex flex-col h-screen w-full justify-center items-center gap-10 mt-4"
         id="form"
         ref={form}
         onSubmit={sendEmail}
       >
-        <h1 className="">Complete sus datos y nos contactaremos!!</h1>
+        <h1 className="text-4xl text-center mr-2 sm:text-5xl">Complete sus datos y nos contactaremos!!</h1>
         <div className="flex flex-row gap-4  w-full z-20 div-form-next-container justify-center items-center">
-          <div className="flex flex-col gap-2 w-[70%] sm:w-[60%] pt-6 pb-6 items-center sm:items-end">
+          <div className="flex flex-col gap-2 w-[80%] sm:w-[60%] pt-6 pb-6 items-center sm:items-end">
             <motion.div className="flex w-full flex-wrap items-end justify-center gap-4 sm:flex-col sm:items-center sm:w-2/3">
               <motion.div
                 className="w-full"
@@ -78,6 +78,7 @@ export default function FormEmail() {
                   label="Nombre"
                   labelPlacement="inside"
                   name="user_name"
+                  className="font-raleway font-medium"
                 />
               </motion.div>
               <motion.div
@@ -96,6 +97,7 @@ export default function FormEmail() {
                   label="Email"
                   labelPlacement="inside"
                   name="user_email"
+                  className="font-raleway font-medium"
                 />
               </motion.div>
               <motion.div
@@ -114,6 +116,7 @@ export default function FormEmail() {
                   label="Establecimiento"
                   labelPlacement="inside"
                   name="user_establishment"
+                  className="font-raleway font-medium"
                 />
               </motion.div>
               <motion.div
@@ -132,6 +135,7 @@ export default function FormEmail() {
                   label="Localidad"
                   labelPlacement="inside"
                   name="user_location"
+                  className="font-raleway font-medium"
                 />
               </motion.div>
 
@@ -149,14 +153,15 @@ export default function FormEmail() {
                   variant="faded"
                   label="Mensaje"
                   placeholder="Consultanos lo que necesites!!"
-                  className="text-black"
+                  className="text-black font-raleway font-medium"
                   name="message"
+                  
                 />
               </motion.div>
               <Button
                 type="submit"
                 color={"primary"}
-                className="w-32 sm:w-1/3 sm:mt-4"
+                className="w-32 sm:w-1/3 mt-4"
               >
                 Enviar
               </Button>

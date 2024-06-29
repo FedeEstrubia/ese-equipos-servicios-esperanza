@@ -15,7 +15,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -38,7 +37,7 @@ a:hover {
   color: #55618e;
 }
 
-p, h2, h3, h4, h5, h6, li {
+p, h2, h3, h4, h5, h6, li{
   text-decoration: inherit;
   font-family: "raleway", sans-serif;
   color: var(--claro);
