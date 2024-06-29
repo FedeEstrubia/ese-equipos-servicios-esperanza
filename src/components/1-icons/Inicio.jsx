@@ -9,7 +9,7 @@ const SvgComponent = (props) => (
     xmlns="http://www.w3.org/2000/svg"
     width={30}
     height={30}
-    fill="#bcf"
+    fill="var(--claro)"
     viewBox="0 0 24 24"
     onClick={scroll}
     {...props}

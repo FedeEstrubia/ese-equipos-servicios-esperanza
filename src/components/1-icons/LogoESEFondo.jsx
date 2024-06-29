@@ -5,7 +5,7 @@ const SvgComponent = (props) => (
     xmlns="http://www.w3.org/2000/svg"
     width={72}
     height={72}
-    fill='#09f'
+    fill='var(--celeste)'
     viewBox="0 0 3000 3000"
     {...props}
   >

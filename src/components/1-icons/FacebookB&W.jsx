@@ -4,7 +4,7 @@ const SvgComponent = (props) => (
     width={800}
     height={800}
     viewBox="0 0 32 32"
-    fill="#ccc"
+    fill="var(--claro)"
     {...props}
   >
     <title>{"facebook"}</title>

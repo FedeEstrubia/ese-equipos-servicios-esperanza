@@ -7,13 +7,16 @@ export default function Whatsapp() {
     message
   )}`;
   return (
+  <div >
+    <div className="fixed animate-ping w-[40px] h-[40px] bottom-0 right-0 m-[42px] bg-green-900 rounded-full z-10"></div>
     <a
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-0 right-0 m-8 z-50"
     >
-      <FaWhatsapp size={60} style={{ color: "#25d366" }} />
-    </a>
+      <FaWhatsapp className="z-50" size={60} style={{ color: "#25d366" }} />
+      
+    </a></div>
   );
 }

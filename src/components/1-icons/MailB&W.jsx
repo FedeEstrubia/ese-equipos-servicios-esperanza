@@ -9,7 +9,7 @@ const SvgComponent = (props) => (
       <title />
       <g
         fill="none"
-        stroke="#ccc"
+        stroke="var(--claro)"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth={2}

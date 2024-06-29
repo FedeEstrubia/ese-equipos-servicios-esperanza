@@ -12,7 +12,7 @@ const SvgComponent = (props) => (
     width={30}
     height={30}
     viewBox="0 0 50 50"
-    fill='#bcf'
+    fill='var(--claro)'
     onClick={scroll}
     {...props}
   >

@@ -28,7 +28,7 @@ export default function Footer() {
               whileHover={{ scale: 1.04, y: -2 }}
               transition={{ duration: 0.15 }}
               href="tel:+543496423085"
-              className="text-[#ccc] p-[0.4rem]"
+              className="p-[0.4rem]"
             >
               +54 3496-423085
             </motion.a>
@@ -41,7 +41,7 @@ export default function Footer() {
               whileHover={{ scale: 1.04, y: -2 }}
               transition={{ duration: 0.15 }}
               href="mailto:equiposyserviciosventas@gmail.com?subject=Buenos%20Diass!!&body=Quiero%20comprarles%20todoo!!"
-              className="text-[#ccc] p-[0.4rem]"
+              className="p-[0.4rem]"
             >
               equiposyserviciosventas@gmail.com
             </motion.a>
@@ -54,7 +54,7 @@ export default function Footer() {
               whileHover={{ scale: 1.04, y: -2 }}
               transition={{ duration: 0.15 }}
               href="https://www.google.com/maps?q=kreder+3350,+esperanza,+santa+fe,+argentina"
-              className="text-[#ccc] p-[0.4rem]"
+              className="p-[0.4rem]"
             >
               Kreder 3350, Esperanza , Santa Fe , Arg
             </motion.a>

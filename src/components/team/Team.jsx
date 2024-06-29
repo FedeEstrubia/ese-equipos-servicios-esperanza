@@ -1,6 +1,8 @@
 import Card from "../card/Card";
 import {motion} from 'framer-motion'
 
+// NO SE ESTA USANDO ESTE COMPONENTE
+
 export default function Team() {
   return (
     <div id="team" className="div-card-container flex flex-col justify-center items-center w-full h-screen bg-[#2d4fbd] z-10 gap-5">

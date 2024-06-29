@@ -10,17 +10,17 @@ export default function Hero() {
   return (
     <div id="hero" className="div-hero flex flex-col relative w-full h-screen overflow-hidden">
       <div className="overlay-text flex flex-col justify-center items-center w-screen h-screen z-30">
-        <div className="overlay-text flex flex-col justify-center items-center w-screen h-screen gap-6 z-30">
+        <div className="overlay-text flex flex-col justify-center bg-gradient-to-b from-[#00052a] to-[#00204a88]  items-center w-screen h-screen gap-6 z-30">
           <motion.h1
-            className="gradient m-0 text-white text-center font-bold text-5xl"
+            className="gradient m-0 sm:w-2/3 text-white sm:text-[10vh]"
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            BIENVENIDOS A ESE
+            Bienvenido Ese
           </motion.h1>
           <motion.h3
-            className="m-0 w-2/3 text-white font-normal"
+            className="m-0 w-2/3 text-white sm:mb-[10vh] sm:text-2xl font-normal"
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 1.3 }}
